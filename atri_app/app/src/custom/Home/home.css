@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.TextBox1{
+    font-weight: 800;
+}
+
+.Link1, .Link2, .Link3, .Link4, .Link5{
+ color: black;
+ font-weight: bold;
+}
+
+.btn, .btn2, .btn3{
+    padding: 1rem;
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: 2px solid black;
+    background: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+
+   }
+.btn3{
+    width: 10rem;
+}
+   .btn::before , .btn2::before, .btn3::before{
+    content: 'Book a call';
+    position: absolute;
+    bottom: 10%;
+    right: 7%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+   }
+   
+   .btn2::before{
+    content: 'Download CV';
+   }
+
+   .btn3::before{
+    content: 'View all Projects';
+   }
+
+
+   .btn:hover::before,
+   .btn2:hover::before,
+   .btn3:hover::before {
+    bottom: 0;
+    right: 0; 
+   }
+
+   .cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
+
+   .TextBox3, .TextBox8, .TextBox19, .TextBox26, .TextBox55, .TextBox62, .TextBox65, .TextBox112, .TextBox123, .TextBox120, .TextBox126, .TextBox131{
+    background: -webkit-linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color : transparent;
+    font-weight: bold;
+   }
+   .TextBox3, .TextBox9, .TextBox9, .TextBox10,.TextBox12, .TextBox13, .TextBox16, .TextBox21, .TextBox25, .TextBox54, .TextBox28, .TextBox56,.TextBox57 .TextBox63, .TextBox64, .TextBox65, .TextBox66, .TextBox73, .TextBox74, .TextBox101, .TextBox100, .TextBox99, .TextBox104, .TextBox103, .TextBox102, .TextBox105, .TextBox114, .TextBox122, .TextBox119, .TextBox125, .TextBox140, .TextBox142, .TextBox145, .TextBox148, .TextBox151{
+    font-weight: 700;
+   }
+
+   /* .Accordion1~.title{
+    font-size: 5rem;
+    background-color: black;
+    color: #ff5e69;
+   } */
